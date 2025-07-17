@@ -42,7 +42,7 @@ A modern, clean, and fast Todo application built with:
 
 ````bash
 # 1. Clone this repo
-git clone https://github.com/yourusername/ezv-todo-app.git
+git clone https://github.com/pratamawebdev/WillyPratamaCendana_FrontEndTest_EZV.git
 cd ezv-todo-app
 
 # 2. Install dependencies
