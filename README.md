@@ -1,7 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EZV Todo App 📝
 
-## Getting Started
+A modern, clean, and fast Todo application built with:
 
+- **Next.js 15 (App Router)**
+- **React 19**
+- **Tailwind CSS 4**
+- **Redux Toolkit + RTK Query**
+- **React Hook Form + Zod**
+- **Radix UI + shadcn/ui components**
+- **TypeScript**
+
+---
+
+## 🚀 Features
+
+- ✅ Add, and manage todos
+- ✅ Pagination with `TanStack Table`
+- ✅ Modal form using Radix Dialog
+- ✅ Form validation using `zod`
+- ✅ Toast notification with `sonner`
+- ✅ SSR initial data hydration
+- ✅ Redux with auto caching and revalidation (RTK Query)
+
+---
+
+## 🧠 Stack & Libraries
+
+| Tech              | Description                        |
+| ----------------- | ---------------------------------- |
+| Next.js 15        | App Router, SSR, ISR, API routes   |
+| React 19          | Concurrent rendering, stable hooks |
+| Tailwind CSS 4    | Utility-first styling              |
+| Redux Toolkit     | Global state & API slice (RTKQ)    |
+| Zod + RHF         | Schema validation for forms        |
+| Radix UI + shadcn | Accessible UI components           |
+| Axios             | HTTP client                        |
+
+---
+
+## 📦 Installation
+
+````bash
+# 1. Clone this repo
+git clone https://github.com/yourusername/ezv-todo-app.git
+cd ezv-todo-app
+
+# 2. Install dependencies
+pnpm install
+# or
+npm install
+# or
+yarn
+
+# 3. Environment Setup
+Before running the project, make sure you have a .env.local file in the root directory.
+
+# 4. Development
 First, run the development server:
 
 ```bash
@@ -12,7 +66,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
